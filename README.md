@@ -1,2 +1,2 @@
 # DSP
-These projeects are a collection from the Udemy course "Digital Signal Processign (DSP) From Ground UP(tm) in C."
+These projects are a collection from the Udemy course "Digital Signal Processing (DSP) From Ground UP(tm) in C."
