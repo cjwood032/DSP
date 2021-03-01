@@ -9,7 +9,7 @@ double output_phase[SIG_LENGTH];
 void rect2polar(double *sig_src_rex_arr, double *sig_src_imx_arr, double *sig_out_mag_arr, double *sig_out_phase_arr, int sig_length);
 int main()
 {
-    rect2polar((double*) _320_pts_ecg_REX, (double *) _320_pts_ecg_IMX, (double *) output_mag, (double *)output_phase, SIG_LENGTH);
+    rect2polar((double*) &_320_pts_ecg_REX, (double *) &_320_pts_ecg_IMX, (double *) &output_mag, (double *)&output_phase, SIG_LENGTH);
     FILE *output_mag_fptr, *output_phase_fptr;
     double Output_sig[SIG_LENGTH];
     
